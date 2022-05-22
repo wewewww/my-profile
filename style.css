@@ -1,0 +1,106 @@
+body {
+	background-color: lightblue;
+	color: darkslategrey;
+	font-family: serif;
+	letter-spacing: 1px;
+	line-height: 21,30px;
+	font-size: 18px;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 1.5px solid black;
+	width: 600px;
+	height: auto;
+	box-shadow: 1px 1px 20px black;
+}
+
+
+
+h1 {
+	color: darkslategrey;
+	font-family: serif;
+	font-size: 42px;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+a:hover {
+	font-size: 20px;
+}
+
+.card {
+	background: white;
+	border: 1.5px solid black;
+	border-radius: 8px;
+	padding: 30px;
+	box-shadow: 1px 1px 20px black;
+	width: 700px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: darkslategrey;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+
+.btn-blue:hover {
+	background-color: navy;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: darkslategrey;
+}
+
+i:hover {
+	font-size: 55px;
+	color: navy;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#introduction h2 {
+	margin-top: 40px;
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
